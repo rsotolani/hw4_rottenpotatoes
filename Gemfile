@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+gem 'simplecov'
 gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
@@ -16,6 +16,7 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'simplecov'
+  gem 'rspec-rails'
 end
 group :production do
   gem 'pg'
@@ -40,3 +41,8 @@ gem 'jquery-rails'
 
 # To use debugger
 gem 'haml'
+
+# use TMDb gem
+gem 'ruby-tmdb'
+
+
